@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$translucent" "0"
+	"$baseTexture" "vgui\replay\thumbnails\bg_redtri"
+	"$alpha" "0"
+	"$vertexalpha" "0"	
+	"$vertexcolor" "0"
+	"$no_fullbright" "0"
+	"$ignorez" "1"
+	"%keywords" "tf"
+}
+
