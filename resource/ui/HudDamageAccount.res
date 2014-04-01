@@ -9,8 +9,8 @@
 		"PositiveColor"	 "255 255 255 255"
 		"NegativeColor"	 "255 255 255 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"M0refont21Outline"
-		"delta_item_font_big"	"M0refont21Outline"
+		"delta_item_font"		"M0refont23Outline"
+		"delta_item_font_big"	"M0refont23Outline"
 	}
 	"DamageAccountValue"
 	{

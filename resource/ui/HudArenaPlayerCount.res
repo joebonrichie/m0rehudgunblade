@@ -38,10 +38,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"0"		//23
-			"ypos"			"0"		//7
+			"ypos"			"-5"		//7
 			"zpos"			"2"
 			"wide"			"30"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -49,17 +49,17 @@
 			"font"			"M0refont24"	//HudFontMedium
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"M0reBlue"
+			"fgcolor"		"255 255 255 255"
 		}	
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
 			"xpos"			"1"	//24
-			"ypos"			"1"	//8
+			"ypos"			"-4"	//8
 			"zpos"			"2"
 			"wide"			"30"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -67,7 +67,7 @@
 			"font"			"M0refont24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"0 0 0 255"
+			"fgcolor"		"m0reblue"
 		}
 		
 		"playerimage"
@@ -124,28 +124,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"0"		//23
-			"ypos"			"0"		//7
+			"ypos"			"-5"		//7
 			"zpos"			"2"
 			"wide"			"30"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"M0refont24"
-			"labelText"		"%red_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"M0reRed"	//TanLight
-		}	
-		"countshadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"countshadow"
-			"xpos"			"1"	//24
-			"ypos"			"1"	//8
-			"zpos"			"2"
-			"wide"			"30"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -153,7 +135,25 @@
 			"font"			"M0refont24"	//HudFontMedium
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"0 0 0 255"
+			"fgcolor"		"255 255 255 255"
+		}	
+		"countshadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"countshadow"
+			"xpos"			"1"	//24
+			"ypos"			"-4"	//8
+			"zpos"			"2"
+			"wide"			"30"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"M0refont24"
+			"labelText"		"%red_alive%"
+			"textAlignment"	"center"
+			"fgcolor"		"m0rered"
 		}
 	
 		"playerimage"

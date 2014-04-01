@@ -63,26 +63,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"1"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-29"
-		"ypos"			"c-24"
-		"wide"			"49"
-		"tall"			"50"
-
-		"font"			"CrossHairKonrWings"
-		"labelText"		"Z"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"248 248 255 255"
-	}
-	CrossHairKonrWings2
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -95,7 +76,7 @@
 		"labelText"		"Z"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"248 248 255 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	CrossHairNormal
 	{
@@ -1549,10 +1530,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 	
 	StatPanel
