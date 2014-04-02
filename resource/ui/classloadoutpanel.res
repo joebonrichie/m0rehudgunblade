@@ -46,9 +46,9 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"54"
+			"model_ypos"	"3"
+			"model_tall"	"52"
+			"text_ypos"		"47"
 			"text_center"	"1"
 			"name_only"		"1"
 			
@@ -64,7 +64,7 @@
 				"allow_rot"				"0"
 			}
 		}
-
+		
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"
@@ -92,19 +92,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"m0refont16"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
-		"ypos"			"20"
+		"ypos"			"26"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"15"
+		"tall"			"16"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "145 225 25 255"
 	}
 	"ClassLabel"
 	{
@@ -117,7 +117,7 @@
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"25"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -130,8 +130,8 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#CurrentlyEquipped"
 		"textAlignment"	"south-west"
-		"xpos"			"c-55"
-		"ypos"			"22"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"15"
@@ -145,8 +145,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-305"
-		"ypos"			"40"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
@@ -155,6 +155,7 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
+		"fillcolor"		"0 0 0 0"
 	}				
 	
 	"classmodelpanel"
@@ -413,7 +414,7 @@
 			}				
 		}		
 	}
-
+	
 	"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"
@@ -425,118 +426,85 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"69 64 63 0"
+		"PaintBackgroundType"	"0"
 	}
 	"RedButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedButton"
-		"xpos"				"c-111"
-		"ypos"				"57"
+//		"xpos"				"c-40"
+//		"ypos"				"35"
+		"xpos"				"c5"
+		"ypos"				"22"
 		"zpos"				"12"	
-		"wide"				"52"
-		"tall"				"34"
+		"wide"				"80"
+		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
+		"labelText"			"RED"
+		"textAlignment"		"center"
+		"font"				"m0refont16"
 		"scaleImage"		"1"
-		"command"			"sv_cheats 1; r_skin 0"
+		"command"			"sv_cheats 1;r_skin 0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"fgcolor"					"46 43 42 255"
+		"defaultFgColor_override" "250 68 17 255"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "250 68 17 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
 		
-		"paintbackground"	"0"
-		"paintbackgroundtype"	"0"
-		"defaultBgColor_Override"	"0 0 0 255"
+		"paintbackground"	"1"
 		
-		"paintborder"		"0"
-		
-		"image_drawcolor"		"255 255 255 128"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-	
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"52"
-			"tall"			"52"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"/store/store_redteam"
-			"scaleImage"	"1"
-		}				
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
 	}
 	
 	"BlueButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueButton"
-		"xpos"				"c56"
-		"ypos"				"57"
+//		"xpos"				"c-40"
+//		"ypos"				"10"
+		"xpos"				"c-85"
+		"ypos"				"22"
 		"zpos"				"12"	
-		"wide"				"52"
-		"tall"				"34"
+		"wide"				"80"
+		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
+		"labelText"			"BLU"
+		"textAlignment"		"center"
+		"font"				"m0refont16"
 		"scaleImage"		"1"
-		"command"			"sv_cheats 1; r_skin 1"
+		"command"			"sv_cheats 1;r_skin 1"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"fgcolor"					"46 43 42 255"
+		"defaultFgColor_override" "0 98 255 255"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "0 98 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
 		
-		"paintbackground"	"0"
-		"paintbackgroundtype"	"0"
-		"defaultBgColor_Override"	"0 0 0 255"
+		"paintbackground"	"1"
 		
-		"paintborder"		"0"
-		
-		"image_drawcolor"		"255 255 255 128"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-	
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"52"
-			"tall"			"52"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"/store/store_blueteam"
-			"scaleImage"	"1"
-		}				
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
 	}
+
 }
