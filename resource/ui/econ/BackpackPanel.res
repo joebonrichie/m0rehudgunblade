@@ -252,7 +252,6 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
-	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -274,41 +273,23 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
-			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"xpos"			"0"
-				"ypos"			"30"
-				"zpos"			"101"
-				"wide"			"140"
-				"tall"			"60"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%attriblist%"
-				"textAlignment"	"center"
-				"fgcolor"		"117 107 94 255"
-				"centerwrap"	"1"
-			}
-    	}
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}
 	}
 	
 	"mousedragitempanel"
@@ -339,7 +320,6 @@
 			"allow_rot"				"0"
 		}
 	}
-	
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"

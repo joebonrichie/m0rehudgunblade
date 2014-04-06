@@ -2027,7 +2027,39 @@ Scheme{Colors{
 			"outline"		"1"
 			}
 		}
-		
+		"SymbolOutline26"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"26"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		"SymbolOutline28"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"28"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		"SymbolOutline32"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
 		"Symbol32"
 		{
 			"1"

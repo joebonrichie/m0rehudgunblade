@@ -63,7 +63,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -417,20 +417,20 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCross"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
 		"ypos"			"c-103"
-		"wide"			"200"
-		"tall"			"200"
+		"wide"			"201"
+		"tall"			"201"
 
 		//"font"		"SymbolOutline24"
-		"font"			"Symbol24"
+		"font"			"SymbolOutline32"
 		"labelText"		"+"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 255 0 255"
 	}
 	
 	KonrWings
