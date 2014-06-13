@@ -735,12 +735,19 @@ event NotificationsPresentBlinkStop
 	StopEvent NotificationsPresentBlinkLoop 		0.0
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 }
+//===========================================
 
 event DamagedPlayer
 {
-	Animate xHairImgred  Alpha	"50" 		Linear 0.0 0.00001
-	Animate xHairImgred  Alpha 	"0" 	                  Linear 0.10 0.10001
+	Animate Crosshair04 FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate Crosshair04 FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
+	
+	// Set the second line ("255 255 255 255") to whatever color you have changed
+	// your crosshair to be. So if you crosshair is green, the second line should
+	// also have that same value.
 }
+
+//===========================================
 event HudReadyPulse
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1

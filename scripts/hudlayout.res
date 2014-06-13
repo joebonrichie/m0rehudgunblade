@@ -1,5 +1,317 @@
-"Resource/HudLayout.res"
-{
+																																																																																																	"Resource/HudLayout.res"{ divider{"
+------------------------------------------
+Cross
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair01" "labelText" "a" "font"
+
+	"size: 14, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+
+------------------------------------------
+hollow Cross
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair02" "labelText" "b" "font"
+
+	"size: 18, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+
+------------------------------------------
+hollow Cross with a dot in the middle
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair03" "labelText" "c" "font"
+
+	"size: 18, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+
+------------------------------------------
+thick Cross
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair04" "labelText" "d" "font"
+
+	"size: 16, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 255"																																																																																										} divider{"
+
+------------------------------------------
+small Cross
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair05" "labelText" "e" "font"
+
+	"size: 18, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+
+------------------------------------------
+wide Cross
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair06" "labelText" "f" "font"
+
+	"size: 20, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+
+------------------------------------------
+thick wide Cross
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair07" "labelText" "g" "font"
+
+	"size: 22, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+------------------------------------------
+thin Circle
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair08" "labelText" "h" "font"
+
+	"size: 30, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 217"																																																																																									} divider{"
+
+------------------------------------------
+thick Circle
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair09" "labelText" "i" "font"
+
+	"size: 30, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 100"																																																																																									} divider{"
+
+------------------------------------------
+quartered Circle
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair10" "labelText" "j" "font"
+
+	"size: 30, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 100"																																																																																									} divider{"
+------------------------------------------
+Dot
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair11" "labelText" "k" "font"
+
+	"size: 24, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
+
+------------------------------------------
+Square
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair12" "labelText" "l" "font"
+
+	"size: 22, outline: on"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
+
+------------------------------------------
+round brackets with a cross in the middle
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair13" "labelText" "m" "font"
+
+	"size: 24, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 179"																																																																																									} divider{"
+
+------------------------------------------
+round brackets with a dot in the middle
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair14" "labelText" "n" "font"
+
+	"size: 24, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 179"																																																																																									} divider{"
+
+------------------------------------------
+round brackets
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair15" "labelText" "o" "font"
+
+	"size: 24, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 179"																																																																																									} divider{"
+
+------------------------------------------
+Lozenge
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair16" "labelText" "p" "font"
+
+	"size: 22, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
+
+------------------------------------------
+Wings
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair17" "labelText" "q" "font"
+
+	"size: 27, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
+
+------------------------------------------
+Batman
+------------------------------------------																																																																																							" " ' "} " "{
+
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair18" "labelText" "r" "font"
+
+	"size: 32, outline: off"
+
+	"xpos"	"c-25"
+	"ypos"	"c-25"
+	"wide"	"50"
+	"tall"	"50"
+
+	"fgcolor"	"255 60 235 255"																																																																																									}
+
+	//end broeselhud crosshairs
+	//begin fog
+	fogCrosshair
+	{
+		"controlname"	"CExLabel"
+		"fieldname"	"fogCrosshair"
+		
+		"visible"	"0"
+		"enabled"	"1"
+
+		"xpos"		"-3"
+		"ypos"		"2"
+		"zpos"		"2"
+		
+		"wide"		"f0"
+		"tall"		"480"
+
+		"font"		"fogCrosshair"
+		//
+		// Choose what kind
+		//
+		// "fogCrosshair"         - Pixelated and outlined
+		// "fogCrosshairPlain"    - Pixelated and not outlined
+		// "fogCrosshairSmooth"   - Antialiased, not outlined
+		
+
+		"labeltext"	"2"
+		//
+		// Choose your crosshair
+		// 
+		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// THERE ARE NO FIXED NUMBERS FOR THIS
+
+		"textAlignment"	"center"
+		
+		"fgcolor"	"255 255 255 255"
+		//
+		// Crosshair color
+		// 
+		// If you change this, remember to change the same value in HudAnimations_tf.txt
+		// Otherwise the crosshair will change back to the default white color after
+		// flashing upon giving damage.
+	}
 // M0rehud Crosshairs
 
 	M0rexhairCross
@@ -63,7 +375,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -453,314 +765,7 @@
 		"textAlignment"	"center"	
 		
 		"fgcolor"		"255 255 255 255"
-	}
-// Broeselhud Crosshairs
-    xHairCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairCross"
-		"xpos"			"c-28"
-		"ypos"			"c-25"
-		"zpos"			"0"
-		"wide"			"56"
-		"tall"			"51"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"a"
-		"font"			"size: 14, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairHollowCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairHollowCross"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"b"
-		"font"			"size: 18, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairHollowCrossWithDot
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairHollowCrossWithDot"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"c"
-		"font"			"size: 18, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairThickCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairThickCross"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"d"
-		"font"			"size: 16, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairSmallCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairSmallCross"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"e"
-		"font"			"size: 18, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairWideCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairThickCross"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"f"
-		"font"			"size: 20, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairThickWideCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairThickWideCross"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"g"
-		"font"			"size: 22, outline: on"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairThinCircle
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairThinCircle"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"h"
-		"font"			"size: 30, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairThickCircle
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairThickCircle"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"i"
-		"font"			"size: 30, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairQuarteredCircle
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairQuarteredCircle"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"j"
-		"font"			"size: 30, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairDot
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairDot"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"k"
-		"font"			"size: 24, outline: off"
-		"fgcolor"		"0 255 0 255"
-	}
-	
-	xHairSquare
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairSquare"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"2"
-		"wide"			"51"
-		"tall"			"49"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"l"
-		"font"			"size: 28, outline: off"
-		"fgcolor"		"0 0 0 255"
-	}
-	
-	xHairRoundBracketsWithCross
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairRoundBracketsWithCross"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"m"
-		"font"			"size: 24, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairRoundBracketsWithDot
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairRoundBracketsWithDot"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"n"
-		"font"			"size: 20, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairRoundBrackets
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairRoundBrackets"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"o"
-		"font"			"size: 22, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairLozenge
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairLozenge"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"p"
-		"font"			"size: 22, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairWings
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairWings"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"q"
-		"font"			"size: 18, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairBatman
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"xHairBatman"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"enabled"		"1"
-		"visible"		"0"
-		"textAlignment"	"center"
-		"labelText"		"r"
-		"font"			"size: 32, outline: off"
-		"fgcolor"		"255 255 255 255"
-	}
-	
+	}	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

@@ -46,7 +46,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"	    "-88" //6
-		"ypos"	    "-88" //4
+		"ypos"	    "-90" //4
 		"zpos"			"3"
 		"wide"	    "12"
 		"tall"	    "12"
@@ -60,7 +60,7 @@
 		"ControlName"	"ceXLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecgui"
 		"xpos"			    "0"
-		"ypos"			    "0"
+		"ypos"			    "2"
 		"zpos"			    "5"
 		"wide"			    "24"
 		"tall"			    "18"
