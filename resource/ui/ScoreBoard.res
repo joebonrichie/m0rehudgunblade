@@ -905,7 +905,7 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"255 255 255 255"
 		}	
@@ -923,7 +923,7 @@
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"255 255 255 255"
 		}							
