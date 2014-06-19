@@ -3913,7 +3913,18 @@ Scheme{Colors{
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"ItemFontAttribSmaller"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"AchievementTracker_Name"
 		{
