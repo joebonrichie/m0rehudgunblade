@@ -18,33 +18,6 @@
 		"command" "engine showconsole; echo visit teamfortress.tv/forum/thread/15348-m0rehud-mvm-the-project for updates"
 		"OnlyAtMenu" "1"
 	}
-	"quickplay_menu"
-	{
-		"label" "QUICKPLAY" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"quickplay_ingame"
-	{
-		"label" "NEW GAME" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"createserver"
-	{
-		"label" "CREATE"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
-	"co-op"
-	{
-		"label" "MVM" 
-		"command" "playpve"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	} 
 	"serverbrowser_menu"
 	{
 		"label" "SERVERS" 
@@ -59,15 +32,48 @@
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
+	"createserver"
+	{
+		"label" "LOCALHOST"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" "1"
+	}
+	"quickplay_menu"
+	{
+		"label" "QUICKPLAY" 
+		"command" "quickplay"
+		"subimage" ""
+		"OnlyAtMenu" "1"
+	}
+	"quickplay_ingame"
+	{
+		"label" "NEW GAME" 
+		"command" "quickplay"
+		"subimage" ""
+		"OnlyInGame" "1"
+	}
+	"co-op"
+	{
+		"label" "MVM" 
+		"command" "playpve"
+		"subimage" ""
+		"OnlyAtMenu" "1"
+	} 
 	"loadout"
 	{
 		"label" "ITEMS"
 		"command" "engine open_charinfo"
 		"subimage" ""
 	}
+	"store"
+	{
+		"label" "SHOP"
+		"command" "engine open_store"
+		"subimage" ""
+	}
 	"Options"
 	{
-		"label" "OPTIONS"
+		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 	}
 	"console"
@@ -83,12 +89,6 @@
 	//	"subimage" ""
 	//	"OnlyAtMenu" "1"
 	//}
-	"store"
-	{
-		"label" "STORE"
-		"command" "engine open_store"
-		"subimage" ""
-	}
 	"Quit"
 	{
 		"label" "QUIT"
