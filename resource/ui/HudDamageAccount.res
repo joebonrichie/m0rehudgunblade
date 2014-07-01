@@ -21,7 +21,7 @@
 		"zpos"			"2"
 		"wide"			"101"
 		"tall"			"26"
-		"visible"		"0"
+		"visible"		"1" //change this value to 0 in order to hide damage above HP
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
@@ -38,7 +38,7 @@
 		"zpos"			"1"
 		"wide"			"102"
 		"tall"			"27"
-		"visible"		"0"
+		"visible"		"1" //change this value to 0 in order to hide damage above HP
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
