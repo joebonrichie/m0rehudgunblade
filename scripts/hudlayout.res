@@ -268,7 +268,7 @@ Batman
 	"fgcolor"	"255 60 235 255"																																																																																									}
 
 	//end broeselhud crosshairs
-	//begin fog
+	//begin fog crosshair
 	fogCrosshair
 	{
 		"controlname"	"CExLabel"
@@ -312,7 +312,9 @@ Batman
 		// Otherwise the crosshair will change back to the default white color after
 		// flashing upon giving damage.
 	}
-// M0rehud Crosshairs
+	
+// end fog crosshair
+// M0rehud Crosshairs Begin
 
 	M0rexhairCross
 	{
@@ -370,7 +372,9 @@ Batman
     "labelText"       "."
     "textAlignment"   "center" 
 	}
-// Gunblade Crosshairs
+// End M0rehud Crosshairs
+	
+// Gunblades Crosshairs Begin
 	CrossHairKonrWings
 	{
 		"controlName"	"CExLabel"
@@ -1001,7 +1005,7 @@ Batman
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c152"
+		"ypos"		"c122"
 		"wide"	 	"252"
 		"tall"	 	"30"
 		"priority"	"35"
@@ -1677,7 +1681,7 @@ Batman
 		"ypos"			"0"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"480"
-	}	
+	}		
 
 	HudTeamGoal
 	{

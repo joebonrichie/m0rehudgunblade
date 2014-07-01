@@ -17,14 +17,14 @@
 		"blog_url"		"http://www.teamfortress.com/"
 		
 		"button_x_offset"	"-300"
-		"button_y"			"144"
-		"button_y_delta"	"1"
+		"button_y"			"140"
+		"button_y_delta"	"0"
 		"button_kv"
 		{
 			"xpos"			"0"
 			"ypos"			"160"
-			"wide"			"193"
-			"tall"			"22"
+			"wide"			"250"
+			"tall"			"18"
 			"visible"		"1"
 			
 			"SubButton"

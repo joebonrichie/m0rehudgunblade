@@ -7,72 +7,72 @@
 
 	"resume"
 	{
-		"label" "Resume Game"
+		"label" "RESUME"
 		"command" "ResumeGame"
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
 	"VersionNumber"
 	{
-		"label" "M0reHud"
+		"label" "M0REHUD"
 		"command" "engine showconsole; echo visit teamfortress.tv/forum/thread/15348-m0rehud-mvm-the-project for updates"
 		"OnlyAtMenu" "1"
 	}
 	"quickplay_menu"
 	{
-		"label" "Quickplay" 
+		"label" "QUICKPLAY" 
 		"command" "quickplay"
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	}
 	"quickplay_ingame"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "NEW GAME" 
 		"command" "quickplay"
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
 	"createserver"
 	{
-		"label" "Create Server"
+		"label" "CREATE"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
 	}
 	"co-op"
 	{
-		"label" "Mann vs Machine" 
+		"label" "MVM" 
 		"command" "playpve"
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	} 
 	"serverbrowser_menu"
 	{
-		"label" "#MMenu_BrowseServers" 
+		"label" "SERVERS" 
 		"command" "OpenServerBrowser"
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	} 
 	"serverbrowser_ingame"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "SERVERS" 
 		"command" "OpenServerBrowser"
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
 	"loadout"
 	{
-		"label" "Items"
+		"label" "ITEMS"
 		"command" "engine open_charinfo"
 		"subimage" ""
 	}
 	"Options"
 	{
-		"label" "Options"
+		"label" "OPTIONS"
 		"command" "OpenOptionsDialog"
 	}
 	"console"
 	{
-		"label" "Training"
+		"label" "PRACTICE"
 		"command" "offlinepractice"
 		"subimage" ""
 	}
@@ -85,19 +85,19 @@
 	//}
 	"store"
 	{
-		"label" "MannCo. Store"
+		"label" "STORE"
 		"command" "engine open_store"
 		"subimage" ""
 	}
 	"Quit"
 	{
-		"label" "Quit"
+		"label" "QUIT"
 		"command" "engine replay_confirmquit"
 		"OnlyAtMenu"	"1"
 	}
 	"Disconnect"
 	{
-		"label" "Disconnect"
+		"label" "DISCONNECT"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 	}

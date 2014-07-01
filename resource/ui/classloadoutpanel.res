@@ -104,7 +104,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "145 225 25 255"
+		"fgcolor_override" "TanLight"
 	}
 	"ClassLabel"
 	{
@@ -445,7 +445,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Red"
+		"labelText"			"RED"
 		"textAlignment"		"center"
 		"font"				"m0refont16"
 		"scaleImage"		"1"
@@ -484,7 +484,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Blu"
+		"labelText"			"BLU"
 		"textAlignment"		"center"
 		"font"				"m0refont16"
 		"scaleImage"		"1"
