@@ -174,10 +174,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Default"
+		"font"			"M0reNumbers14"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
-		"xpos"			"C-50"
+		"xpos"			"C-150"
 		"ypos"			"180"
 		"wide"			"168"
 		"tall"			"12"

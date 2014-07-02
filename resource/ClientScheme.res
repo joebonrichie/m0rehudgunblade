@@ -1500,6 +1500,39 @@ Scheme{Colors{
 				"outline"   "1"
 			}
 		}
+		M0reNumbers14
+		{
+			"1"
+			{
+				"name"		"Surface Numbers Medium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		M0reNumbers16
+		{
+			"1"
+			{
+				"name"		"Surface Numbers Medium"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		M0reNumbers18
+		{
+			"1"
+			{
+				"name"		"Surface Numbers Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont10
 		{
 			"1"
@@ -1566,24 +1599,15 @@ Scheme{Colors{
 				"outline"	"1"
 			}
 		}
-		"HeavyCaps14"
+		M0refont19Outline
 		{
 			"1"
 			{
-				"name"		"HeavyCaps"
-				"tall"		"14"
+				"name"		"Surface-Medium"
+				"tall"		"19"
 				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HeavyCaps18"
-		{
-			"1"
-			{
-				"name"		"HeavyCaps"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
+				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}
 		M0refont20Outline
@@ -5679,25 +5703,25 @@ Scheme{Colors{
 			"font" "resource/crosshairs.ttf"
 			"name" "broeselhud Crosshairs"
 		}
-		"13" 
-		{
-			"font" "resource/HeavyCaps.ttf"
-			"name" "HeavyCaps"  
-		}
-		"14" // Fog's xHairs
+		"13" // Fog's xHairs
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
-		"15" 
+		"14" 
 		{
 			"font" "resource/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"16"
+		"15"
 		{
          "font"     "resource/tf2cross.ttf"
          "name"     "tf2cross"
+		}
+		"16" 
+		{
+			"font" "resource/Surface-Numbers.ttf"
+			"name" "Surface Numbers Medium"
 		}
 	}
 }

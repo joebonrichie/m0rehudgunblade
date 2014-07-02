@@ -9,8 +9,8 @@
 		"PositiveColor"			"255 255 255 255"
 		"NegativeColor"			"255 255 255 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"M0refont18Outline"
-		"delta_item_font_big"	"M0refont18Outline"
+		"delta_item_font"		"M0refont20Outline"
+		"delta_item_font_big"	"M0refont20Outline"
 	}
 	"DamageAccountValue"
 	{
@@ -21,7 +21,7 @@
 		"zpos"			"2"
 		"wide"			"101"
 		"tall"			"26"
-		"visible"		"1" //change this value to 0 in order to hide damage above HP
+		"visible"		"1" //change this value to 1 in order to enable damage above HP
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
@@ -38,7 +38,7 @@
 		"zpos"			"1"
 		"wide"			"102"
 		"tall"			"27"
-		"visible"		"1" //change this value to 0 in order to hide damage above HP
+		"visible"		"1" //change this value to 1 in order to enable damage above HP
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
