@@ -5718,10 +5718,5 @@ Scheme{Colors{
          "font"     "resource/tf2cross.ttf"
          "name"     "tf2cross"
 		}
-		"16" 
-		{
-			"font" "resource/Surface-Numbers.ttf"
-			"name" "Surface Numbers Medium"
-		}
 	}
 }
