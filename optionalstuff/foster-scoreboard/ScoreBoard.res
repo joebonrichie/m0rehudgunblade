@@ -174,32 +174,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"M0reNumbers14"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"		"west"
-		"xpos"			"C-120"
-		"ypos"			"200"
-		"wide"			"168"
-		"tall"			"12"
-		"zpos"			"99"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"34 202 66 255"
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"ServerTimeLeftConnector"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeft"
 		"font"			"m0refont14"
-		"labelText"		":"
-		"textAlignment"		"west"
-		"xpos"			"C-4"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"center"
+		"xpos"			"C-85"
 		"ypos"			"200"
 		"wide"			"168"
 		"tall"			"12"
