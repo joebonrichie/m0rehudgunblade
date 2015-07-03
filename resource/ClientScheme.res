@@ -2270,72 +2270,106 @@ BaseSettings
 		}		
 		"Default"
 		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+      "1"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "14"
+        "antialias" "1"
+				"yres"	    "480 700"
 			}
-			"2"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+      "2"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "18"
+        "antialias" "1"
+				"yres"	    "701 899"
 			}
-			"3"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+      "3"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "22"
+        "antialias" "1"
+				"yres"	    "900 1000"
 			}
-			"4"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+      "4"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	    "1001 10000"
 			}
-			"5"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+     }
+		"DefaultOutline"
+		{
+      "1"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "16"
+        "antialias" "1"
+				"yres"	    "480 700"
+				"outline"   "1"
 			}
-			"6"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+      "2"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "20"
+        "antialias" "1"
+				"yres"	    "701 899"
+				"outline"   "1"
 			}
-			"7"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+      "3"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	    "900 1000"
+				"outline"   "1"
 			}
-
-			
-		}
+      "4"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "26"
+        "antialias" "1"
+				"yres"    	"1001 10000"
+				"outline"   "1"
+			}
+     }
+		"DefaultNumber"
+		{
+      "1"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "16"
+        "antialias" "1"
+				"yres"	    "480 700"
+			}
+      "2"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "20"
+        "antialias" "1"
+				"yres"	    "701 899"
+			}
+      "3"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	    "900 1000"
+			}
+      "4"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "26"
+        "antialias" "1"
+				"yres"	    "1001 10000"
+			}
+     }
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -2343,7 +2377,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Arial"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -2351,64 +2385,40 @@ BaseSettings
 		}
 		"DefaultSmall"
 		{
-			"1"
-			{
+      "1"
+      {
 				"name"		"Surface-Medium"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+        "tall"      "13"
+        "antialias" "1"
+				"yres"	"480 700"
 			}
-			"2"
-			{
+      "2"
+      {
 				"name"		"Surface-Medium"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+        "tall"      "16"
+        "antialias" "1"
+				"yres"	"701 899"
 			}
-			"3"
-			{
+      "3"
+      {
 				"name"		"Surface-Medium"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
+        "tall"      "20"
+        "antialias" "1"
+				"yres"	"900 1000"
 			}
-			"4"
-			{
+      "4"
+      {
 				"name"		"Surface-Medium"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	"1001 10000"
 			}
-			"5"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
-			}
-		}
-
-
+     }
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2416,7 +2426,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2424,7 +2434,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2433,7 +2443,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2442,7 +2452,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2454,7 +2464,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2462,7 +2472,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2470,7 +2480,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2479,7 +2489,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2488,7 +2498,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2497,14 +2507,14 @@ BaseSettings
 			}
 			"6"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Arial"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -2528,7 +2538,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -2539,14 +2549,14 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
@@ -2554,21 +2564,21 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
