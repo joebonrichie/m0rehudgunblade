@@ -9,7 +9,7 @@
 		"zpos"		        	"2"
 		"wide"		        	"41"
 		"tall"		         	"14"
-		"visible"	        	"1"
+		"visible"	        	"0"
 		"enabled"	        	"1"
 		"image"			        "../hud/color_panel_blu"
 		"scaleImage"	    	"1"	

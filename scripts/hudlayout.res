@@ -394,6 +394,7 @@ Batman
 		
 		"fgcolor"		"255 255 255 255"
 	}
+//Seekers Crosshair
 	CrossHairNormal
 	{
 		"controlName"  "CExLabel"
@@ -949,7 +950,10 @@ Batman
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+	HudDamageIndicator
+	{
+
+	}
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
@@ -1656,7 +1660,32 @@ Batman
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"130"
+		"ypos"			"r61"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"250"
+		"tall"			"195"
+		"PaintBackgroundType"	"0"
+	}
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
@@ -1798,7 +1827,16 @@ Batman
 		"wide"					"125"
 		"tall"					"55"
 	}
-	
+	ItemTestHUDPanel
+	{
+		"fieldName"		"ItemTestHUDPanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"150"
+		"tall"			"44"
+	}
 	NotificationPanel
 	{
 		"fieldName"				"NotificationPanel"
@@ -2034,17 +2072,28 @@ Batman
 		
 		"PaintBackgroundType"	"2"
 	}
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
-		"xpos"			"0"			
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 100"
-		"PaintBackgroundType"	"3" // rounded corners
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
 	}
 	"HudMenuTauntSelection"
 	{
@@ -2059,4 +2108,51 @@ Batman
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+	
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
 }
+

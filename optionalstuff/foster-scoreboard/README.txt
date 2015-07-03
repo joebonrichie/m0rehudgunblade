@@ -8,7 +8,5 @@ tf/custom/resource
 
 cheers.
 
-
-place scoreboard.res in tf/custom/resource/ui
-
-or whatever the fuck your directory is.
+(replace or backup the default scoreboard first)
+then find scoreboard_foster in resource/ui and rename it to scoreboard

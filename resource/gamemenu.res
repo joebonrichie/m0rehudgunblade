@@ -12,9 +12,21 @@
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
+	"CallVoteButton"
+	{
+		"label"			"VOTE"
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+	}
+	"MutePlayersButton"
+	{
+		"label"			"MUTE"
+		"command"		"OpenPlayerListDialog"
+		"OnlyInGame"	"1"
+	}
 	"VersionNumber"
 	{
-		"label" "M0REHUD"
+		"label" "M0REHUD 2015"
 		"command" "engine showconsole; echo visit teamfortress.tv/forum/thread/15348-m0rehud-mvm-the-project for updates"
 		"OnlyAtMenu" "1"
 	}
@@ -58,7 +70,15 @@
 		"command" "playpve"
 		"subimage" ""
 		"OnlyAtMenu" "1"
-	} 
+	}
+	"PlayCompetitiveButton"
+	{
+		"label" "COMP" 
+		"command" "ladder_ui_show"
+		"subimage" ""
+		"OnlyAtMenu" "1"
+		"OnlyWhenCompetitiveEnabled" "1"
+	}	
 	"loadout"
 	{
 		"label" "ITEMS"
@@ -100,25 +120,5 @@
 		"label" "DISCONNECT"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
-	}
-	
-	///////////////////
-	/// SUB BUTTONS ///
-	///////////////////
-	"CallVoteButton"
-	{
-		"label"			""
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
-	}
-	"MutePlayersButton"
-	{
-		"label"			""
-		"command"		"OpenPlayerListDialog"
-		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
 	}
 }
