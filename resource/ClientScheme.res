@@ -3352,7 +3352,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
