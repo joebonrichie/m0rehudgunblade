@@ -2346,7 +2346,7 @@ BaseSettings
       "2"
       {
 				"name"		  "Surface-Medium"
-        "tall"      "20"
+        "tall"      "20"
         "antialias" "1"
 				"yres"	    "701 899"
 			}
@@ -2941,9 +2941,9 @@ BaseSettings
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
-				"scalex"	"0.5"
+				"scalex"	"1.0"
 				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
+				"scaley"	"1.0"
 				"scaley_lodef"		"0.75"
 			}
 		}
@@ -2997,7 +2997,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3008,7 +3008,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -3019,7 +3019,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -3032,7 +3032,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -3157,7 +3157,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"  "Surface-Medium"
+				"name"  "Verdana"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -3221,7 +3221,6 @@ BaseSettings
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
-
 		// this is the symbol font
 		"Marlett"
 		{
@@ -3281,7 +3280,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -3519,7 +3518,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -3527,7 +3526,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -3535,7 +3534,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -3543,7 +3542,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -3551,7 +3550,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -3570,7 +3569,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -3578,7 +3577,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -3586,7 +3585,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -3594,7 +3593,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -3605,7 +3604,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -3613,7 +3612,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -3621,7 +3620,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -3629,7 +3628,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -3637,7 +3636,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -3700,7 +3699,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -3713,7 +3712,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -3727,7 +3726,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -3806,7 +3805,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -3816,7 +3815,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -3826,7 +3825,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -3879,7 +3878,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -3890,7 +3889,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -3901,7 +3900,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -3913,7 +3912,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3922,7 +3921,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3931,7 +3930,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3988,7 +3987,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -4045,7 +4044,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -4056,7 +4055,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -4067,7 +4066,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4077,7 +4076,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -4090,7 +4089,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4186,7 +4185,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -4198,7 +4197,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -4209,7 +4208,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4223,7 +4222,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4231,7 +4230,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4239,7 +4238,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4248,7 +4247,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4257,7 +4256,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4280,7 +4279,7 @@ BaseSettings
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -4288,7 +4287,7 @@ BaseSettings
 			}
 			"2"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -4296,7 +4295,7 @@ BaseSettings
 			}
 			"3"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -4305,7 +4304,7 @@ BaseSettings
 			}
 			"4"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -4314,7 +4313,7 @@ BaseSettings
 			}
 			"5"
 			{
-				"name"		"Surface-Medium"
+				"name"		"Verdana"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
