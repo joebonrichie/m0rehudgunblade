@@ -2150,5 +2150,23 @@ Batman
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
+	
+	"gamma"
+	// Enable this to have high gamma on windowed mode (also works
+	// in fullscreen) where mat_monitorgamma does not work. 
+	// Useful to players who want high brightness in-game
+	// but not burn their eyes out on the desktop.
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-50"
+		"wide"			"900"
+		"tall"			"500"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 45"
+	}
 }
 
