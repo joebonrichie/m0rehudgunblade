@@ -1534,6 +1534,17 @@ BaseSettings
 				"outline"   "1"
 			}
 		}
+		M0reNumbers14score
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0reNumbers14
 		{
 			"1"
