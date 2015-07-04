@@ -96,6 +96,11 @@
 		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 	}
+	"Advanced Options"
+	{
+		"label" "ADV. SETTINGS"
+		"command" "opentf2options"
+	}
 	"console"
 	{
 		"label" "PRACTICE"
