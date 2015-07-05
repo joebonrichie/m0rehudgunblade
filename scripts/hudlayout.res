@@ -1656,20 +1656,16 @@ Batman
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	HudSpellMenu
+	"HudSpellMenu"
 	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"fieldName"		"HudSpellMenu"
+		"visible"		"1"
+		"enabled"		"1"
+		"wide"			"640"
+		"tall"			"480"
+		"zpos"			"2"
+		"xpos"			"290"
+		"ypos"			"40"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
