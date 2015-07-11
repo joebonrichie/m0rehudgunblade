@@ -486,9 +486,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
-	Animate	ChargeLabelshadowbig 	FgColor		"0 0 0 255"		Linear 0.0 0.0001
+	Animate	ChargeLabel 		FgColor		"255 255 255 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 		FgColor		"0 255 0 255"			Linear 0.0 0.0001
+	Animate	ChargeLabelshadowbig 	FgColor		"0 0 0 255"			Linear 0.0 0.0001
 }
 
 //====================================
