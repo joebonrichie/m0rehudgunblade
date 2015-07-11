@@ -241,8 +241,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-13"
-		"ypos"			"448"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"395"
 		"zpos"			"10"
 		"wide"			"26"
 		"tall"			"26"
