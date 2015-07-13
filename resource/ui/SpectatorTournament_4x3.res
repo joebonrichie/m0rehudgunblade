@@ -167,33 +167,10 @@
 					"visible"		"1"
 				}
 			}
-			
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"default"
-				"xpos"			"15"
-				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"18"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
-				"fgcolor"		"0 0 0 255"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
-			}
-			"respawntimecover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimecover"
 				"font"			"BlocksSharp64"
 				"xpos"			"15"
 				"ypos"			"2"
@@ -207,28 +184,10 @@
 				"textAlignment"	"east"
 				"fgcolor"		"255 255 255 255"
 			}
-			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"defaultsmall"
-				"xpos"			"99"
-				"ypos"			"1"
-				"zpos"			"20"
-				"wide"			"25"
-				"tall"			"17"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"center"
-				"fgcolor_override"		"0 0 0 255"
-			}
-			"chargeamountcover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamountcover"
 				"font"			"BlocksSharp64"
 				"xpos"			"97"
 				"ypos"			"2"

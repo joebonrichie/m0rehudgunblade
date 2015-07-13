@@ -11,11 +11,11 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"0"
+		"team1_player_base_offset_x"		"20"
 		"team1_player_base_y"				"325"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"15"
-		"team2_player_base_offset_x"		"303"
+		"team2_player_base_offset_x"		"293"
 		"team2_player_base_y"				"325"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
@@ -147,7 +147,23 @@
 					"visible"		"1"
 				}
 			}
-			
+			"chargeamount"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountcover"
+				"font"			"BlocksSharp64"
+				"xpos"			"97"
+				"ypos"			"2"
+				"zpos"			"19"
+				"wide"			"26"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor"		"255 255 255 255"
+			}
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -170,59 +186,6 @@
 					"ypos"			"17"
 				}
 			}
-			"respawntimecover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimecover"
-				"font"			"BlocksSharp64"
-				"xpos"			"15"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"22"
-				"tall"			"14"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"east"
-				"fgcolor"		"255 255 255 255"
-			}
-			
-			"chargeamount"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamount"
-				"font"			"defaultsmall"
-				"xpos"			"99"
-				"ypos"			"1"
-				"zpos"			"20"
-				"wide"			"25"
-				"tall"			"17"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"center"
-				"fgcolor_override"		"0 0 0 255"
-			}
-			"chargeamountcover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamountcover"
-				"font"			"BlocksSharp64"
-				"xpos"			"97"
-				"ypos"			"2"
-				"zpos"			"19"
-				"wide"			"26"
-				"tall"			"14"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"east"
-				"fgcolor"		"255 255 255 255"
-			}
-			
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -389,33 +352,34 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_tall"		"60"
 		
-		"text_xpos"		"90"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
@@ -438,5 +402,38 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+		
+		"attriblabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"attriblabel"
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"south"
+			"fgcolor"		"235 226 202 255"
+			"centerwrap"	"1"
+		}
+	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}	
 }
