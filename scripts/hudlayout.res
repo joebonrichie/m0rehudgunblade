@@ -952,7 +952,16 @@ Batman
 	}
 	HudDamageIndicator
 	{
-
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "20"
+		"MaximumWidth" "20"            
+		"StartRadius" "110"
+		"EndRadius" "110"
+		"MinimumHeight" "20"
+		"MaximumHeight" "80"
+		"MinimumTime" "1"
 	}
 	CDamageAccountPanel
 	{
