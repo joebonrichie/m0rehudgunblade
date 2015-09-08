@@ -11,11 +11,11 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"20"
+		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"325"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"15"
-		"team2_player_base_offset_x"		"293"
+		"team2_player_base_offset_x"		"303"
 		"team2_player_base_y"				"325"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
