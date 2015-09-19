@@ -1,129 +1,117 @@
-"GameMenu"
+"GameMenu" [$WIN32]
 {
-
-	////////////////////
-	/// MAIN BUTTONS ///
-	////////////////////
-
-	"resume"
+	"ToggleMinmode"
 	{
-		"label" "RESUME"
-		"command" "ResumeGame"
-		"subimage" ""
+		"label" "Scoreboard"
+		"command" "engine toggle cl_hud_minmode"
+		"OnlyInGame" "0"
+	}
+	"QuickplayButton"
+	{
+		"label" "Quickplay" 
+		"command" "quickplay"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu" "1"
+	}
+	"QuickplayChangeButton"
+	{ 
+		"label" "" 
+		"command" "quickplay"
+		"subimage" "glyph_server"
 		"OnlyInGame" "1"
+	}
+	"PlayPVEButton"
+	{
+		"label" "Play MvM" 
+		"command" "playpve"
+		"subimage" "glyph_coop"
+		"OnlyAtMenu" "1"
+	}
+	"ServerBrowserButton"
+	{
+		"label" "Browse Servers" 
+		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
+		"OnlyAtMenu" "1"
+	} 
+	"ChangeServerButton"
+	{
+		"label" "Change Server" 
+		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
+		"OnlyInGame" "1"
+	}
+	"ReplayBrowserButton"
+	{
+		"label" "Replays"
+		"command" "engine replay_reloadbrowser"
+		"subimage" "glyph_tv"
+	}
+	"SteamWorkshopButton"
+	{
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" "glyph_steamworkshop"
+	}
+	"TrainingButton"
+	{
+		"label" "Training"
+		"command" "offlinepractice"
+		"OnlyAtMenu" "0"
+	}
+	
+	// These buttons get positioned by the MainMenuOverride.res	
+	"CreateServerButton"
+	{
+		"label" "Create Server"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" "1"
+		"tooltip" "#GameUI_GameMenu_CreateServer"
+	}
+	"GeneralStoreButton"
+	{
+		"label" "Shop"
+		"command" "engine open_store"
+		"subimage" "glyph_store"
+	}	
+	"CharacterSetupButton"
+	{
+		"label" "Items"
+		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
+	}
+
+	// These buttons are only shown while in-game
+	// and also are positioned by the .res file
+	"ResumeGameButton"
+	{
+		"label"			"Resume"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+		"subimage" "icon_resume"
 	}
 	"CallVoteButton"
 	{
-		"label"			"VOTE"
+		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"MUTE"
+		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
+		"subimage" "glyph_muted"
+		"tooltip" "#MMenu_MutePlayers"
 	}
-	"VersionNumber"
+	"RequestCoachButton"
 	{
-		"label" "M0REHUD 2015"
-		"command" "engine showconsole; echo visit teamfortress.tv/forum/thread/15348-m0rehud-mvm-the-project for updates"
-		"OnlyAtMenu" "1"
-	}
-	"serverbrowser_menu"
-	{
-		"label" "SERVERS" 
-		"command" "OpenServerBrowser"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	} 
-	"serverbrowser_ingame"
-	{
-		"label" "SERVERS" 
-		"command" "OpenServerBrowser"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"createserver"
-	{
-		"label" "LOCALHOST"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
-	"quickplay_menu"
-	{
-		"label" "QUICKPLAY" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"quickplay_ingame"
-	{
-		"label" "NEW GAME" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"co-op"
-	{
-		"label" "MVM" 
-		"command" "playpve"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"PlayCompetitiveButton"
-	{
-		"label" "COMP" 
-		"command" "ladder_ui_show"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
-	}	
-	"loadout"
-	{
-		"label" "ITEMS"
-		"command" "engine open_charinfo"
-		"subimage" ""
-	}
-	"store"
-	{
-		"label" "SHOP"
-		"command" "engine open_store"
-		"subimage" ""
-	}
-	"Options"
-	{
-		"label" "SETTINGS"
-		"command" "OpenOptionsDialog"
-	}
-	"Advanced Options"
-	{
-		"label" "ADV. SETTINGS"
-		"command" "opentf2options"
-	}
-	"console"
-	{
-		"label" "PRACTICE"
-		"command" "offlinepractice"
-		"subimage" ""
-	}
-	//"replays"
-	//{
-	//	"label" "DemoUI"
-	//	"command" "engine demoui"
-	//	"subimage" ""
-	//	"OnlyAtMenu" "1"
-	//}
-	"Quit"
-	{
-		"label" "QUIT"
-		"command" "engine replay_confirmquit"
-		"OnlyAtMenu"	"1"
-	}
-	"Disconnect"
-	{
-		"label" "DISCONNECT"
-		"command" "Disconnect"
-		"OnlyInGame" "1"
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage" "icon_whistle"
+		"tooltip" "#MMenu_RequestCoach"
 	}
 }
