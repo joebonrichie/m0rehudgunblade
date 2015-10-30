@@ -213,7 +213,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainMenuSideBG"
-		"xpos"			"50"
+		"xpos"			"40"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"170"
@@ -1275,7 +1275,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"m0rehudlabel"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"95"
 		"zpos"			"11"
 		"wide"			"100"
@@ -1334,30 +1334,12 @@
 		}
 	}
 	
-	"VersionLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"VersionLabel"
-		"font"			"M0refont8"
-		"labelText"		"Last updated: 09/14/2015"
-		"textAlignment"	"east"
-		"xpos"			"r110"
-		"ypos"			"r15"
-		"wide"			"100"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 255"
-	}
-	
 	// controlled by GameMenu.res
 	"QuickplayButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"123"
 		"zpos"			"0"
 		"wide"			"100"
@@ -1420,7 +1402,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"123"
 		"zpos"			"11"
 		"wide"			"60"
@@ -1483,7 +1465,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"180"
+		"xpos"			"170"
 		"ypos"			"126"
 		"zpos"			"11"
 		"wide"			"14"
@@ -1551,7 +1533,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"143"
 		"zpos"			"11"
 		"wide"			"100"
@@ -1614,7 +1596,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"143"
 		"zpos"			"12"
 		"wide"			"100"
@@ -1677,7 +1659,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"163"
 		"zpos"			"11"
 		"wide"			"100"
@@ -1740,7 +1722,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"163"
 		"zpos"			"12"
 		"wide"			"100"
@@ -1804,7 +1786,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"183"
 		"zpos"			"12"
 		"wide"			"100"
@@ -1868,7 +1850,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"183"
 		"zpos"			"11"
 		"wide"			"100"
@@ -1931,7 +1913,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"203"
 		"zpos"			"0"
 		"wide"			"100"
@@ -1993,7 +1975,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"223"
 		"zpos"			"11"
 		"wide"			"100"
@@ -2055,7 +2037,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"243"
 		"zpos"			"11"
 		"wide"			"100"
@@ -2117,7 +2099,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"263"
 		"zpos"			"11"
 		"wide"			"60"
@@ -2178,7 +2160,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"283"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2230,7 +2212,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"303"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2284,7 +2266,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ToggleMinmode"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"323"
 		"zpos"			"12"
 		"wide"			"100"
@@ -2348,7 +2330,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DemoUIButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"343"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2386,7 +2368,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"383"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2439,7 +2421,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"383"
 		"zpos"			"1"
 		"wide"			"100"
@@ -2493,7 +2475,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"140"
+		"xpos"			"130"
 		"ypos"			"126"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2540,7 +2522,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"160"
+		"xpos"			"150"
 		"ypos"			"126"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2603,7 +2585,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"160"
+		"xpos"			"150"
 		"ypos"			"r30"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2664,7 +2646,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"r30"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2711,7 +2693,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"100"
+		"xpos"			"90"
 		"ypos"			"r30"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2757,7 +2739,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"120"
+		"xpos"			"110"
 		"ypos"			"r30"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2803,7 +2785,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"140"
+		"xpos"			"130"
 		"ypos"			"r30"
 		"zpos"			"0"
 		"wide"			"14"
