@@ -203,10 +203,10 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
-		if_operation
+		if_community_update
 		{
-			"image"		"../console/title_summer_operation_2015"
-		}		
+			"image"		"../console/title_invasion"
+		}
 	}
 	
 	"MainMenuSideBG"
