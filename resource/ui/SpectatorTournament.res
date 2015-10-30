@@ -35,7 +35,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"default"
-				"xpos"			"39"
+				"xpos"			"33"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"85"
@@ -85,8 +85,8 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"			              "15"
-				"ypos"				            "0"
+				"xpos"			              "11"
+				"ypos"				            "-2"
 				"zpos"				            "3"
 				"wide"				            "50"
 				"tall"				            "18"
@@ -147,6 +147,7 @@
 					"visible"		"1"
 				}
 			}
+			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -164,12 +165,13 @@
 				"textAlignment"	"east"
 				"fgcolor"		"255 255 255 255"
 			}
+			
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"default"
-				"xpos"			"15"
+				"xpos"			"12"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"23"
@@ -186,6 +188,7 @@
 					"ypos"			"17"
 				}
 			}
+			
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
