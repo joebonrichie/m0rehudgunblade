@@ -2156,6 +2156,29 @@ Batman
 		"tall"	 		"f0"
 	}
 	
+	"MatchMakingContainer"
+ 	{
+ 		"ControlName"				"EditablePanel"
+ 		"fieldName"					"MatchMakingContainer"
+ 		"visible"					"1"
+ 		"enabled"					"1"
+ 		"xpos"						"0"
+ 		"ypos"						"0"
+ 		"wide"						"f0"
+ 		"tall"						"f0"
+ 	}
+ 	
+ 	HudSpectatorExtras
+ 	{
+ 		"fieldName"					"HudSpectatorExtras"
+ 		"visible"					"1"
+ 		"enabled"					"1"
+ 		"xpos"						"0"
+ 		"ypos"						"0"
+ 		"wide"						"f0"
+ 		"tall"						"f0"
+ 	}
+	
 	"gamma"
 	// Enable this to have high gamma on windowed mode (also works
 	// in fullscreen) where mat_monitorgamma does not work. 
