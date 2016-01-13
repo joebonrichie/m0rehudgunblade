@@ -40,12 +40,12 @@ Scheme
 	    
 	    "Blank"				"0 0 0 0"
 
-		"ControlBG"			"76 88 68 90"		// background color of controls
-		"ControlDarkBG"		"90 106 80 90"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 90"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 90"		// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 90"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 90"		// background of server browser, buddy list, etc.
+		"ControlBG"			"76 88 68 200"		// background color of controls
+		"ControlDarkBG"		"90 106 80 200"		// darker background color; used for background of scrollbars
+		"WindowBG"			"62 70 55 200"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"90 84 75 200"		// background color of any selected text or menu item
+		"SelectionBG2"		"69 64 57 200"		// selection background in window w/o focus
+		"ListBG"			"39 36 34 200"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
